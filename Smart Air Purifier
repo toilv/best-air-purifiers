@@ -1,0 +1,27 @@
+The article presents the concept and implemented, functional physical model of a mobile air
+purifier for small public spaces or apartments. The purifier is a compact, controlled by microcontroller of
+the Arduino UNO series. The model is equipped with a set of sensors allowing to determine the content of
+PM 2.5 contaminants. After exceeding the adopted threshold in the software, the system automatically starts
+the process of air filtering. The following factors are measured: solid contamination content, humidity and
+air temperature as well as pressure drop on built-in filters. The purifier absorbs solid pollutants and reduces
+VOC pollutants. The system has been equipped with a screen informing the user about air parameters and
+the state of the filter contamination.
+Concept of mobile air purifier
+The project assumes the development of a system that supplies air to the room from the outside with unknown
+pollination. The process of air quality improvement will be based on reactive air purification by the device in case
+of detecting an abnormal concentration of one of the detected contaminants.
+The design assumes that the filter will be mobile, with the capacity to improve the state of air in rooms with a
+volume of about 130 m3 (approx. 50 m2 ). It was assumed that: the sensory system should monitor air dustiness,
+temperature, humidity and pressure drop across the device's filters; the device switch on automatically,
+information about air condition, temperature and humidity should be provided to the user via LCD
+display, the filtering system should trap particles PM 2.5 with the efficiency of min. 95% and the used fan should
+provide air flow of min. 100 m3/h, due to economic aspects, it was assumed that the accuracy of the used
+sensor will only allow approximate measurements, therefore it will be necessary to use an additional button
+activating the filtering system regardless of the sensor's indications, the filtering system should be monitored, i.e.
+the user should be informed about the necessity of replacing of the filter cartridges, e.g. with an appropriate
+message on the display, unit cost of the device should not exceed 250 €.
+Originally, it was assumed that the system's operation algorithm should take into account the signals from
+measurement transducers detecting the concentration of PM 2.5 dusts, formaldehyde, oxide and carbon dioxide.
+Lack of coupling with the ventilation system means that the system will not be able to reduce CO and CO2
+concentrations. For economic reasons, CO, CO2 and formaldehyde sensors have been abandoned. It was
+assumed that the cleaning system should be equipped 
